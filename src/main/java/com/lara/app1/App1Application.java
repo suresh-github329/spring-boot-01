@@ -13,6 +13,8 @@ public class App1Application implements CommandLineRunner{
 	public static void main(String[] args) {
 		SpringApplication.run(App1Application.class, args);
 		System.out.println("app started.....");
+		int a = 10;
+		int b = 20;
 	}
 	
 	@Override
